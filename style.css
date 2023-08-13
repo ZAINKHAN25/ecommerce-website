@@ -81,12 +81,39 @@ body{
     color: #E54E5D;
 }
 
-/*.caursolitem2{
-     width: 100vw !important;
+.caursolitem2{
     display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: row;
     overflow: hidden;
     justify-content: center;
-} */
+}
+
+.divoffooter{
+    border-bottom: 2px solid white;
+}
+
+.divoffooter ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: left;
+}
+
+.divoffooter ul li{
+    width: 300px;
+    margin: 5px 10px;
+}
+
+.imgoffooter{
+    width: 250px;
+}
+
+.spanofimg img{
+    margin-top: 20px;
+    width: 50px;
+}
 
 @media (max-width: 991px) {
     .search_bar{
